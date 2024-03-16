@@ -1,0 +1,62 @@
+name: penmetch
+description: "simple app"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_storage: ^11.6.9
+  firebase_auth: ^4.17.8
+  firebase_core: ^2.27.0
+  cloud_firestore: ^4.15.8
+  flutter_launcher_icons: ^0.13.1
+
+  #img
+  image_picker: ^1.0.7
+  path: ^1.9.0
+
+  #modal
+  modal_bottom_sheet: ^3.0.0
+
+  #font
+  google_fonts: ^6.2.1
+  ionicons: ^0.2.2
+
+  #downloader
+  flutter_file_downloader: ^1.2.1
+
+  #notification
+  awesome_notifications: any
+
+  #animation
+  molten_navigationbar_flutter: ^1.0.0
+  typewritertext: ^3.0.2
+
+  #id_generator
+  nanoid2: ^2.0.1
+  shared_preferences: ^2.2.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/profile/default.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/profile/default.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+
+flutter:
+  assets:
+  - assets/profile/
+  uses-material-design: true

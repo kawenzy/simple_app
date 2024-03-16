@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "59549618023",
+    "project_id": "penmetch",
+    "storage_bucket": "penmetch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59549618023:android:cfe529e7f08837c96a29c2",
+        "android_client_info": {
+          "package_name": "com.example.penmetch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_zQMaPTCd3oZIMbgb-HDVaH13G0bzxv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
