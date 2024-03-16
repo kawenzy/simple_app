@@ -151,7 +151,7 @@ class _CommentState extends State<Comment> {
                 ),
               ),
                           //disini bisa menggunakan expanded atau flexible dan flex 1 
-              Flexible(
+              Expanded(
                 flex: 1,
                 child: SingleChildScrollView(
                   reverse: false,

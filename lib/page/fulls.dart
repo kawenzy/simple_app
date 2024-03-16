@@ -201,8 +201,7 @@ class _FullsState extends State<Fulls> {
               ],
             ),
             //disini bisa menggunakan expanded atau flexible dan flex 1 
-            Flexible(
-              flex: 1,
+            Expanded(
               child: SingleChildScrollView(
                 reverse: false,
                 child: Padding(
